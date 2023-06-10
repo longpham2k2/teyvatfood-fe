@@ -1,2 +1,6 @@
 import Home from "../pages/Home";
-export const webRoutes = [{ path: "/", component: Home }];
+import Example from "../pages/Example";
+export const webRoutes = [
+  { path: "/", component: Home },
+  { path: "/React", component: Example },
+];
